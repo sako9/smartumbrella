@@ -27,7 +27,7 @@ def main():
 	print daily.data[2].icon
 	print currently.apparentTemperature
 	for x in range(10000):
-                matrix.Clear()
+                '''matrix.Clear()
                 matrix.SetImage(im_now.convert('RGB'))
                 time.sleep(2)
                 matrix.Clear()
@@ -36,12 +36,12 @@ def main():
                 matrix.SetImage(im_today.convert('RGB'))
                 time.sleep(2)
                 matrix.Clear()
-                animation_by_icon(daily.data[2].icon,matrix)
+                animation_by_icon(daily.data[2].icon,matrix)'''
         
-	'''clear_day(matrix)
-	rain(matrix)
-	snow(matrix)
-	cloudy(matrix)'''
+		clear_day(matrix)
+		rain(matrix)
+		snow(matrix)
+		cloudy(matrix)
 	
 	
 	
