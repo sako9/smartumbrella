@@ -8,7 +8,7 @@ from PIL import Image
 from rgbmatrix import RGBMatrix, RGBMatrixOptions, graphics
 
 
-api_key = 'adc320c63105603c790551b8bf78ccad'
+api_key = 'YourApiKey'
 im_now = Image.open('now.png')
 im_today = Image.open('today.png')
 
